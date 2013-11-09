@@ -15,7 +15,7 @@ public class MainActivity extends Activity {
     gl3d = (GLSurfaceView) findViewById(R.id.gl3d);
     gl3d.setEGLContextClientVersion(2);
     gl3d.setEGLConfigChooser(new MultisampleConfigChooser());
-    gl3d.setRenderer(new ShadyRenderer());
+    gl3d.setRenderer(new MyRenderer());
 
   }
 

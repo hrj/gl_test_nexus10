@@ -13,7 +13,7 @@ import android.opengl.GLES10;
 import android.opengl.GLES20;
 import android.opengl.GLSurfaceView.Renderer;
 
-public final class ShadyRenderer implements Renderer {
+public final class MyRenderer implements Renderer {
   private static final int NUM_TEXTURES = 2;
   private final int[] mTextureIDs = new int[NUM_TEXTURES];
   private final Paint textPaint = new Paint();
