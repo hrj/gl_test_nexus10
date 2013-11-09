@@ -14,4 +14,6 @@ If the the number of draws (N) is reduced, there is no crash. I have tried with 
 I haven't found the exact N at which the crash behavior begins (because I don't own a Nexus 10 myself).
 
 #### Guide to the code
-The main action is in `MyRenderer.java`. 
+The main action is in `MyRenderer.java`. A bitmap is created and then a canvas that draws on the bitmap is created. The Canvas APIs are used to draw an arc into the bitmap.
+The bitmap is then read out into a byte buffer, and then the texure is updated using `glTexSubImage2D`. This is then shown on the screen
+using a GLSL shader.
