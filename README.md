@@ -2,6 +2,13 @@ This is a minimal app that crashes on Nexus 10, likely due to a bug in the Nexus
 
 This test-case is based on a [real app](https://play.google.com/store/apps/details?id=com.lavadip.skeyepro) that is also reported to crash on the Nexus 10.
 
+The app is now [available on the play store](https://play.google.com/apps/testing/com.lavadip.gltest) for beta testers. To see it, you
+need to join either:
+  * [SkEye Google Group](https://groups.google.com/forum/#!forum/skeye) or
+  * [SkEye Google+ Community](https://plus.google.com/u/0/communities/102874732670529314358)
+
+(Sorry, those are Google's restrictions)
+
 #### What the app does
 The app draws a texture N=25 times on the screen. Each time, the texture is updated in place using `glTexSubImage2D`.
 A video of how this appears on a Nexus 4 can be viewed [here](http://www.youtube.com/watch?v=5y8ci3X2VLM).
