@@ -1,4 +1,4 @@
-package com.example.gltest;
+package com.lavadip.gltest;
 
 import android.opengl.GLES20;
 

@@ -1,4 +1,4 @@
-package com.example.gltest;
+package com.lavadip.gltest;
 
 import android.app.Activity;
 import android.opengl.GLSurfaceView;
